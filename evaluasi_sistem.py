@@ -78,6 +78,6 @@ plt.xlabel('Hasil Prediksi Sistem')
 plt.ylabel('Kenyataan (Ground Truth)')
 
 # Simpan hasil CM yang sudah ada tulisannya
-plt.savefig('cm_final_yosep_berlabel.png')
-print("Confusion Matrix berlabel berhasil disimpan: cm_final_yosep_berlabel.png")
+plt.savefig('cm_final_berlabel.png')
+print("Confusion Matrix berlabel berhasil disimpan: cm_final_berlabel.png")
 plt.show()
