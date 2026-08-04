@@ -12,6 +12,9 @@ Proyek ini bertujuan untuk meningkatkan akurasi deteksi katarak menggunakan anal
 1. Instal library: `pip install -r requirements.txt`
 2. Jalankan seluruh proses: `python main.py`
 
-## Hasil
-- Akurasi Sistem: **85.00%**
-- Lokasi Penelitian: Universitas Katholik Santo Thomas Medan.
+## Hasil Projek
+- Akurasi Sistem: **85.00%** ![GAMBAR AKURASI SISTEM](image-1.png)
+
+- Perbandingan Akurasi: Dilihat dari Penelitian terdahulu dengan akurasi yang didapatkan **78.00%** terhadap hasil penelitian **85.00%** , maka dapat disimpulkan penelitian yang dilakukan lebih akurat dalam mendeteksi katarak dengan menggunakan kamera digital. ![Perbandingan Akurasi](hasil_final_jurnal.png)
+
+
