@@ -20,7 +20,8 @@ Proyek ini bertujuan untuk meningkatkan akurasi deteksi katarak menggunakan anal
 - Jika anda melakukan clone , maka anda dapat menghilangkan folder maupun gambar yang saya sebutkan pada nomor `5` serta `image-1.png` dan `image.png`
 
 ## Hasil Projek
-- Akurasi Sistem: **85.00%** ![GAMBAR AKURASI SISTEM](image-1.png)
+- Akurasi Sistem: **85.00%**.
+  ![GAMBAR AKURASI SISTEM](image-1.png)
 
 - Perbandingan Akurasi: Dilihat dari Penelitian terdahulu dengan akurasi yang didapatkan **78.00%** terhadap hasil penelitian **85.00%** , maka dapat disimpulkan penelitian yang dilakukan lebih akurat dalam mendeteksi katarak dengan menggunakan kamera digital. ![Perbandingan Akurasi](hasil_final_jurnal.png)
 
