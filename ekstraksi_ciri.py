@@ -18,7 +18,7 @@ with open(hasil_csv, mode='w', newline='') as file:
         path = os.path.join(input_base, category)
         print(f"Ekstraksi Tekstur & Morfologi: {category}...")
         for filename in os.listdir(path):
-            if not filename.startswith('equ_'): continue # Pakai hasil Equalization
+            if not filename.startswith('equ_'): continue 
             
             img = cv2.imread(os.path.join(path, filename), 0)
             if img is None: continue
