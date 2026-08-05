@@ -2,6 +2,7 @@
 #    pada program Akurasi Deteksi Katarak
 #    melalui gambar / citra yang diberikan --
 
+/* Fungsi Libary : 
 1. opencv-python : pengolahan citra & video
 2. pandas        : manipulasi data dalam bentuk tabel 
 3. numpy         : operasi matematika dan array multidimensi
@@ -10,16 +11,4 @@
 6. scikit-learn  : algoritma ML 
 7. scikit-image  : pengolahan citra digital
 8. xgboost       : algoritma gradient boosting 
-
-# Cara Install : 
-  pip install opencv-python pandas numpy matplotlib seaborn scikit-learn scikit-image xgboost
-
-# Lalu lakukan Import Libary : 
-  import cv2
-  import pandas as pd
-  import numpy as np 
-  import matplotlib.pyplot as plt
-  import seaborn as sns
-  from sklearn.model_selection import train_test_split
-  from skimage import io, filters
-  import xgboost as xgb
+*/
