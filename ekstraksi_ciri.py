@@ -1,3 +1,6 @@
+# --- FUNGSI FILE ----
+# File khusus melakukan ekstraksi ciri terhadap morfologi & tekstur 
+
 import cv2
 import os
 import csv
@@ -23,10 +26,10 @@ with open(hasil_csv, mode='w', newline='') as file:
             img = cv2.imread(os.path.join(path, filename), 0)
             if img is None: continue
             
-            # 1. Morfologi (Luas)
+            # Morfologi (Luas)
             area = cv2.countNonZero(cv2.Canny(img, 100, 200))
             
-            # 2. Tekstur (GLCM)
+            # Tekstur (GLCM)
             glcm = graycomatrix(img, [1], [0], 256, symmetric=True, normed=True)
             contrast = graycoprops(glcm, 'contrast')[0, 0]
             homogeneity = graycoprops(glcm, 'homogeneity')[0, 0]
