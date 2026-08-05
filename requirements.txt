@@ -2,13 +2,13 @@
 #    pada program Akurasi Deteksi Katarak
 #    melalui gambar / citra yang diberikan --
 
-/* Fungsi Libary : 
-1. opencv-python : pengolahan citra & video
-2. pandas        : manipulasi data dalam bentuk tabel 
-3. numpy         : operasi matematika dan array multidimensi
-4. matplotlib    : visualisasi data (grafik)
-5. seaborn       : visualisasi statistikk yang lebih estetik
-6. scikit-learn  : algoritma ML 
-7. scikit-image  : pengolahan citra digital
-8. xgboost       : algoritma gradient boosting 
-*/
+" Fungsi Libary : 
+  1. opencv-python : pengolahan citra & video
+  2. pandas        : manipulasi data dalam bentuk tabel 
+  3. numpy         : operasi matematika dan array multidimensi
+  4. matplotlib    : visualisasi data (grafik)
+  5. seaborn       : visualisasi statistikk yang lebih estetik
+  6. scikit-learn  : algoritma ML 
+  7. scikit-image  : pengolahan citra digital
+  8. xgboost       : algoritma gradient boosting 
+"
