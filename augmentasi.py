@@ -1,9 +1,10 @@
+# -- FUNGSI FILE ---
 # Augmentasi Data Asli (Mata Normal + Mata Katarak)
 
 import cv2
 import os
 
-# konfigurasi Folder
+# konfigurasi Folder yang dibagi dalam dua kategori 
 input_base = 'dataset_asli'
 output_base = 'dataset_output'
 categories = ['Mata_Normal', 'Mata_Katarak']
@@ -25,15 +26,15 @@ for category in categories:
         # Simpan Foto Asli ke folder output
         cv2.imwrite(os.path.join(save_path, f"asli_{filename}"), img)
         
-        # 1. Augmentasi: Flip Horizontal (Cermin)
+        # Augmentasi: Flip Horizontal (Cermin)
         flip_h = cv2.flip(img, 1)
         cv2.imwrite(os.path.join(save_path, f"aug_flip_{filename}"), flip_h)
         
-        # 2. Augmentasi: Rotasi 90 Derajat
+        # Augmentasi: Rotasi 90 Derajat
         rot_90 = cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE)
         cv2.imwrite(os.path.join(save_path, f"aug_rot_{filename}"), rot_90)
         
-        # 3. Augmentasi: Penyesuaian Kecerahan (Brightness)
+        # Augmentasi: Penyesuaian Kecerahan (Brightness)
         bright = cv2.convertScaleAbs(img, alpha=1.2, beta=30)
         cv2.imwrite(os.path.join(save_path, f"aug_bright_{filename}"), bright)
 
