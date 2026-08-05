@@ -7,7 +7,6 @@ def run_step(step_name, file_name):
     os.system(f"python {file_name}")
 
 if __name__ == "__main__":
-    # Urutan proses penelitian Yosep
     run_step("1. Augmentasi Data (400 Citra)", "augmentasi.py")
     run_step("2. Visual Pipeline (Preprocessing)", "pipeline_pcd.py")
     run_step("3. Ekstraksi Ciri (Morfologi & Tekstur)", "ekstraksi_ciri.py")
