@@ -1,5 +1,5 @@
 # -- FUNGSI FILE ---
-# Augmentasi Data Asli (Mata Normal + Mata Katarak)
+# File khusus melakukan augmentasi data asli (mata normal + mata katarak)
 
 import cv2
 import os
