@@ -1,4 +1,4 @@
-# Deteksi Katarak Berbasis Pengolahan Citra Digital (PCD)
+# Deteksi Katarak Berbasis Pengolahan Citra Digital 
 
 Proyek ini bertujuan untuk meningkatkan akurasi deteksi katarak menggunakan analisis tekstur (GLCM) dan augmentasi data, melampaui standar penelitian sebelumnya (78%) menjadi **85%**.
 
